@@ -1,0 +1,7 @@
+inw_plik = open('inw.txt', 'r')
+inw = inw_plik.read()
+lower = inw.lower()
+upper = inw.upper()
+print(lower < upper)
+print(lower > upper)
+print(lower == upper)

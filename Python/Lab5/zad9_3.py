@@ -1,0 +1,6 @@
+inw_plik = open('inw.txt', 'r')
+inwokacja = inw_plik.read()
+inwokacja_lista = inwokacja.splitlines()
+print(inwokacja_lista)
+inwokacja_lancuch = "-".join(inwokacja_lista)
+print(inwokacja_lancuch)
