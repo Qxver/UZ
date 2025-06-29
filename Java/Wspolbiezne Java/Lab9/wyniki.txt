@@ -1,0 +1,73 @@
+Liczba rdzeni procesora: 12
+
+Macierze 500x500
+Czas wykonania dla 1 watku: 0,16s
+Czas wykonania dla 4 watkow: 0,07s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 2,42 razy szybsze
+MD5 macierzy C1: f512ebb9c0260ba6bdf848f10c1b8f3d
+MD5 macierzy D1: f512ebb9c0260ba6bdf848f10c1b8f3d
+
+Macierze 1000x1000
+Czas wykonania dla 1 watku: 1,34s
+Czas wykonania dla 4 watkow: 0,35s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 3,82 razy szybsze
+MD5 macierzy C2: 90b741f98410e3bb408d92fa49f9c436
+MD5 macierzy D2: 90b741f98410e3bb408d92fa49f9c436
+
+Macierze 1500x1500
+Czas wykonania dla 1 watku: 6,89s
+Czas wykonania dla 4 watkow: 1,28s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 5,37 razy szybsze
+MD5 macierzy C3: 1dfe5e6e4defff78eb0b5217313a6940
+MD5 macierzy D3: 1dfe5e6e4defff78eb0b5217313a6940
+
+---------------------------------------------------------------------
+Liczba rdzeni procesora: 12
+
+Macierze 500x500
+Czas wykonania dla 1 watku: 0,16s
+Czas wykonania dla 4 watkow: 0,07s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 2,15 razy szybsze
+MD5 macierzy C1: f512ebb9c0260ba6bdf848f10c1b8f3d
+MD5 macierzy D1: f512ebb9c0260ba6bdf848f10c1b8f3d
+
+Macierze 1000x1000
+Czas wykonania dla 1 watku: 1,41s
+Czas wykonania dla 4 watkow: 0,41s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 3,43 razy szybsze
+MD5 macierzy C2: 90b741f98410e3bb408d92fa49f9c436
+MD5 macierzy D2: 90b741f98410e3bb408d92fa49f9c436
+
+Macierze 1500x1500
+Czas wykonania dla 1 watku: 6,79s
+Czas wykonania dla 4 watkow: 1,32s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 5,15 razy szybsze
+MD5 macierzy C3: 1dfe5e6e4defff78eb0b5217313a6940
+MD5 macierzy D3: 1dfe5e6e4defff78eb0b5217313a6940
+
+---------------------------------------------------------------------
+Liczba rdzeni procesora: 4
+
+Macierze 500x500
+Czas wykonania dla 1 watku: 0,64s
+Czas wykonania dla 4 watkow: 0,14s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 4,71 razy szybsze
+MD5 macierzy C1: f512ebb9c0260ba6bdf848f10c1b8f3d
+MD5 macierzy D1: f512ebb9c0260ba6bdf848f10c1b8f3d
+
+Macierze 1000x1000
+Czas wykonania dla 1 watku: 7,78s
+Czas wykonania dla 4 watkow: 2,08s
+Czy macierze sa rowne: true
+Mnozenie wielowatkowe jest 3,74 razy szybsze
+MD5 macierzy C2: 90b741f98410e3bb408d92fa49f9c436
+MD5 macierzy D2: 90b741f98410e3bb408d92fa49f9c436
+
+Macierze 1500x1500
