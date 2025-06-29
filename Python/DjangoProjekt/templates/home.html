@@ -1,0 +1,21 @@
+<h2>Witaj {{ request.user.username }}</h2>
+<a href="{% url 'logout' %}">Wyloguj</a>
+
+<h3>Twoje notatki</h3>
+<ul>
+  {% for note in notes %}
+    <li>
+      {{ note.text }}
+      <a href="{% url 'delete_note' note.id %}">Usuń</a>
+    </li>
+  {% empty %}
+    <li>Brak notatek</li>
+  {% endfor %}
+</ul>
+
+<h3>Dodaj notatkę</h3>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Dodaj</button>
+</form>
