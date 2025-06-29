@@ -16,6 +16,15 @@ public class Zad5 {
             }
         }
 
+        for (int i = 0; i < 3; i++){
+            for (int j = 0; j < 3; j++){
+                matrix3[i][j] = 0;
+                for (int k = 0; k < 3; k++){
+                    matrix3[i][j] += matrix1[i][k] * matrix2[k][j];
+                }
+            }
+        }
+
         
         System.out.println(Arrays.deepToString(matrix1));
         System.out.println(Arrays.deepToString(matrix2));

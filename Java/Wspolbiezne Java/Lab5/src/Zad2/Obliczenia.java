@@ -18,10 +18,10 @@ public class Obliczenia extends Thread{
 
     public void run(){
         int a, b;
-        try {
+        try{
             s1.acquire();
             s2.acquire();
-        } catch (InterruptedException e) {
+        } catch (InterruptedException e){
             e.printStackTrace();
         }
         a = dane1.getA();

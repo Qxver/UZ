@@ -1,4 +1,5 @@
 package Zad2;
+
 import java.util.Scanner;
 import java.util.concurrent.Semaphore;
 
@@ -18,7 +19,7 @@ public class Dane1 extends Thread{
         scanner.close();
     }
 
-    public int getA() {
+    public int getA(){
         return a;
     }
 }

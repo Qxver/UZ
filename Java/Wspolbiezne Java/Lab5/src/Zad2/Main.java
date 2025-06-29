@@ -2,7 +2,7 @@ package Zad2;
 
 import java.util.concurrent.Semaphore;
 
-public class Main {
+public class Main{
     public static void main(String[] args){
         Semaphore s1 = new Semaphore(0);
         Semaphore s2 = new Semaphore(0);
